@@ -28,7 +28,8 @@ lista_numeros = lista_aleatoria(inicio, fin, cantidad)
 
 Generar una una nueva funcion que se llame "contar",
 que cuente la cantidad de veces que un número (pasado
-por parámetro a la función) se repite en la lista (también pasada por parámetro)
+por parámetro a la función) se repite en la lista (también pasada
+por parámetro)
 
 Para saber cuantas veces se repiten el elemento pasado
 en la lista pueden usar el método nativo de list "count"
