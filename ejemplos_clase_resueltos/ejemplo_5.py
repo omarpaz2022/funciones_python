@@ -24,7 +24,7 @@ def cantidad_productos():
 # Aquí dentro definir la función "precio_productos"
 # def precio_productos(cantidad_productos):
 def precio_productos(cantidad_productos):
-    productos = []  # lista donde almacenaremos los precios, comienza vacia
+    productos = []  # Lista donde almacenaremos los precios, comienza vacia
 
     # Realizar un bucle que se ejecute una vez
     # por cada producto comprado, 
