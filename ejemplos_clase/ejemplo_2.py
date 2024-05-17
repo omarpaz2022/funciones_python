@@ -11,7 +11,7 @@ import random
 
 
 def precio_productos(cantidad_productos):
-    productos = []  # lista donde almacenaremos los precios, comienza vacia
+    productos = []  # Lista donde almacenaremos los precios, comienza vacia
 
     # Realizar un bucle que se ejecute una vez
     # por cada producto comprado, 
@@ -25,13 +25,13 @@ def precio_productos(cantidad_productos):
     return productos
 
 def precio_productos_aleatorios(valor_min, valor_max, cantidad):
-    productos = []  # lista donde almacenaremos los precios, comienza vacia
+    productos = []  # Lista donde almacenaremos los precios, comienza vacia
     
     # Realizar un bucle que genere números aleatorios
     # comprendidos entre el rango especificado
     for i in range(cantidad):        
         precio = random.randint(valor_min, valor_max)
-        print("Precio aleatorio del producto", i, "es", precio)
+        print(f"Precio aleatorio del producto i es {precio}")
         productos.append(precio)
 
     # Retornar la lista de precios de productos
@@ -53,7 +53,8 @@ if __name__ == '__main__':
 
     # Generar aleatoriamente precios para los productos comprados
     # En este ejemplo se visibiliza que valor se asigna a cada parámetro
-    precios_aleatorios = precio_productos_aleatorios(valor_min=10, valor_max=150, cantidad=cantidad)
+    precios_aleatorios = precio_productos_aleatorios(valor_min=10, \
+                                        valor_max=150, cantidad=cantidad)
 
     # Imprimir los precios de los productos comprados
     print("Precios aleatorios de los productos comprados:")

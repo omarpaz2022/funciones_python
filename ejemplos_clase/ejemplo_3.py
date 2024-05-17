@@ -32,7 +32,7 @@ if __name__ == '__main__':
     precio_total_1 = calcular_precio_total(productos)
 
     # Imprimir el precio total de la lista
-    print("Precio total de la lista de producto:", precio_total_1)
+    print(f"Precio total de la lista de producto: {precio_total_1}")
 
     # *****************************
     #       PROFESOR LIVE CODE
